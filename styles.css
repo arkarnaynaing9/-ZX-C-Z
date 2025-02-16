@@ -1,0 +1,159 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    color: #333;
+    overflow-x: hidden;
+}
+
+a.btn {
+    display: inline-block;
+    background-color: #0099cc;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin: 20px;
+    transition: background-color 0.3s;
+}
+
+a.btn:hover {
+    background-color: #0077aa;
+}
+
+/* Education panel styles */
+.education-panel {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    animation: fadeIn 0.5s forwards;
+}
+
+.panel-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    animation: slideInUp 0.5s ease-out;
+}
+
+.close-btn {
+    font-size: 1.5rem;
+    color: #333;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+h2.fade-in {
+    opacity: 0;
+    animation: fadeIn 1.5s forwards;
+}
+
+ul {
+    margin-top: 10px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Floating hearts */
+.floating-heart {
+    position: absolute;
+    font-size: 3rem;
+    color: red;
+    animation: float 6s ease-in-out infinite;
+}
+
+.floating-heart:nth-child(odd) {
+    animation-duration: 5s;
+}
+
+.floating-heart:nth-child(even) {
+    animation-duration: 7s;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-100px) rotate(180deg);
+    }
+    100% {
+        transform: translateY(0) rotate(360deg);
+    }
+}
+
+/* Snowflakes */
+.snowflake {
+    position: absolute;
+    font-size: 1.5rem;
+    color: white;
+    animation: snow 10s linear infinite;
+}
+
+@keyframes snow {
+    0% {
+        transform: translateY(-100px);
+    }
+    100% {
+        transform: translateY(100vh);
+    }
+}
+
+/* Music Controls */
+.music-controls {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.music-controls button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.music-controls button:hover {
+    color: #0099cc;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

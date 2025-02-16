@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c44dbc2ee4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+    type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+  </script>
+
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#home" style="--i:1">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#skills" style="--i:3">Skills</a>
+            <a href="#portfolio" style="--i:4">Portfolio</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me ,</h3>
+            <h1>Arkar.</h1>
+            <h3>And I'm a <span class="text"></span></h3> <!-- This will be the dynamic typing text -->
+            <p id="dynamic-text" class="rotate3d">木漏れ日 ・ 侘寂 ・ 浮世 ・ 儚い ・ 恋の予感</p>
+
+           
+            
+            <div class="home-sic">
+                <a href="https://www.facebook.com/arkarnay.naing.35?mibextid=wwXIfr&mibextid=wwXIfr" style="--i:6"><i class="fa-brands fa-facebook-f fa-beat-fade"></i></a>
+                <a href="https://www.instagram.com/k_julyyyy?igsh=azh4Y3FibGNtdDc%3D&utm_source=qr" style="--i:7"><i class="fa-brands fa-instagram fa-beat-fade"></i></a>
+                <a href="https://t.me/snowandjuly" style="--i:8"><i class="fa-brands fa-whatsapp fa-beat-fade"></i></a>
+                <a href="https://x.com/kjuly318162?s=21" style="--i:9"><i class="fa-brands fa-twitter fa-beat-fade"></i></a>
+            </div>
+            
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="w2.jpg" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Junior Frontend Developer</h4>
+            <p>A highly motivated and enthusiastic student from the University of Computer
+                Studies, Mandalay, specializing in Business Information Systems. As a Junior
+                Frontend Developer, I am building my skills in web development, UI/UX design,
+                and business analysis. My academic background has provided me with a
+                solid foundation in how technology can solve business challenges. I’m eager
+                to apply my knowledge and continue developing my skills through hands-on
+                experience in frontend development and design.</p>
+
+            <a href="education.html" class="btn">More About Me</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Projects</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code fa-beat" style="color: #00eeff;"></i>
+                        <h2>Interactive Valentine’s Day Webpage</h2>
+                        <p>Created a valentine's day webpage with floating animations, interactive
+                            buttons, and a customizable theme.
+                            • Implemented UI elements like color pickers, heart-shaped frames,
+                            and popup message features.
+                            • Integrated JavaScript for dynamic user interactions and CSS for
+                            smooth animations, resulting in an engaging user experience</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple fa-beat" style="color: #00eeff;"></i>
+                        <h2>Movie Ticket Booking System</h2>
+                        <p>Designed and developed a fully functional movie ticket booking
+                            system as part of a university project.
+                            • Focused on a user-friendly interface with easy navigation and booking
+                            flow.
+                            • Employed JavaScript for backend simulation, working with data for
+                            availability checks and seat selection</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store fa-beat" style="color: #00eeff;"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>Designed brand logos,UI/UX web design promotional materials for small
+                            businesses, including Million Cake Compan</p>
+                        <a href="#" class="read">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <section>
+        <div class="container1" id="skills">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar"><i style="color: #c95d2e;" class="fa-brands fa-html5"></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #147bbc;" class="fa-brands fa-css3-alt"></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #b0bc1e;" class="fa-brands fa-square-js"></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #c32ec9;" class="fa-brands fa-python"></i>
+                    <div class="info">
+                        <span>Python</span>
+                    </div>
+                    <div class="progress-line python">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i style="color: #69bcbc;" class="fa-brands fa-react"></i>
+                    <div class="info">
+                        <span>React</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">90%</div>
+                <div class="test">Creativity</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">65%</div>
+                <div class="test">Communication</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">75%</div>
+                <div class="test">Problem Solving</div>
+            </div>
+            <div class="radial-bar">
+                <svg x="0px" y="0px" viewBox="0 0 200 200">
+                    <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">80%</div>
+                <div class="test">Teamwork</div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div id="portfolio" id="project">
+            <div class="main-text">
+                <h2>Latest <span>Project</span></h2>
+
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="vday.jpg" alt="">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>Created a valentine's day webpage with floating animations, interactive
+                                buttons, and a customizable theme.
+                                • Implemented UI elements like color pickers, heart-shaped frames,
+                                and popup message features.
+                                • Integrated JavaScript for dynamic user interactions and CSS for
+                                smooth animations, resulting in an engaging user experienc</p>
+                            <a href="https://67ac29c272816b9113cb3215--effervescent-bubblegum-3bef1d.netlify.app"><i class="fa-solid fa-up-right-from-square fa-beat"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="wwwwwww.jpeg" alt="">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>Designed and developed a fully functional movie ticket booking
+                                system as part of a university project.
+                                • Focused on a user-friendly interface with easy navigation and booking
+                                flow.
+                                • Employed JavaScript for backend simulation, working with data for
+                                availability checks and seat selection</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square fa-beat"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="uiux.jpg" alt="">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>Designed brand logos,UI/UX web design promotional materials for small
+                                businesses, including Million Cake Company</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square fa-beat"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>Contact my email or ph for work</p>
+            <div class="contact-list">
+                <li><i class="fa-sharp fa-solid fa-paper-plane"></i> arkarnaynaing1058@gmail.com</li>
+                <li><i class="fa-sharp fa-solid fa-phone"></i> 09796599476</li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.facebook.com/arkarnay.naing.35?mibextid=wwXIfr&mibextid=wwXIfr"><i class="fa-brands fa-facebook fa-beat-fade"></i></a>
+                <a href="https://x.com/kjuly318162?s=21"><i class="fa-brands fa-twitter fa-shake"></i></a>
+                <a href="https://www.instagram.com/k_julyyyy?igsh=azh4Y3FibGNtdDc%3D&utm_source=qr"><i class="fa-brands fa-instagram fa-beat-fade"></i></a>
+                <a href="https://www.linkedin.com/in/akar-nay-naing-03791034b"><i class="fa-brands fa-linkedin fa-shake"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Enter Your Name" required>
+                <input type="email" id="email" placeholder="Enter Your Email" required>
+                <input type="text" id="subject" placeholder="Enter Your Subject">
+                <textarea id="message" cols="40" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="Submit" class="send">
+            </form>
+            
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>Copyright &#169; Arkar Nay Naing 2025. All rights reserved.</p>
+    </div>
+    <a href="#" class="top"><i class="fa-solid fa-arrow-up fa-beat-fade"></i></a>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
